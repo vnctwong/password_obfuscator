@@ -28,13 +28,6 @@ function passArguementToObf() {
     obfuscatedString = obfuscatedString + obfuscate(CmdLineArguement.charAt(i)); //need to run obfuscate function through each character of string
   }
 
-  // function passArguementToObf(){
-  // var CmdLineArguement = process.argv;
-  // var obfuscatedString = "";
-
-  // for(var i = 0; i < CmdLineArguement[2].length; i++){
-  //   obfuscatedString += obfuscate(CmdLineArguement[2].charAt(i));
-
   return obfuscatedString;
 }
 
